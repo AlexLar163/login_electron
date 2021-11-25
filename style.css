@@ -1,41 +1,35 @@
-.row{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 10px;
+.row {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
 }
-table
-{
-    border: 1px solid #000;
-}
-    
-th, td 
-{
-   width: 25%;
-   text-align: left;
-   vertical-align: top;
-   border: 1px solid #000;
-   border-collapse: collapse;
-   padding: 0.3em;
+table {
+  border: 1px solid #000;
 }
 
-th 
-{
-   background: #000;
-   color: floralwhite;
+th,
+td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
 }
 
- tbody tr 
-{
-   background-color: darkslategrey;
+th {
+  background: #000;
+  color: floralwhite;
 }
 
-
-input
-{
-   width: 160px;
-   height: 30px;
-   border-radius: 5px;
-   margin-bottom: 10px;
+tbody tr {
+  background-color: darkslategrey;
 }
 
+input {
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
